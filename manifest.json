@@ -1,0 +1,18 @@
+{
+	"name": "Khan Command Enter",
+	"version": "1.0",
+	"description": "Press command+enter to trigger the Check button during exercises.",
+	"permissions": [],
+	"content_scripts": [{
+			"matches": ["*://*.khanacademy.org/*"],
+			"css": ["injectedStyles.css"],
+			"js": ["jquery-3.5.1.min.js", "math.min.js", "contentScript.js"]
+		}],
+	"icons": {
+		"16": "images/16.png",
+		"32": "images/32.png",
+		"48": "images/48.png",
+		"128": "images/128.png"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,11 @@
+.INJECTED-MATHJS {
+	font-size: xx-small;
+	color: red;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.INJECTED-ANALYSIS {
+	font-size: smaller !important;
+	color: red;
+	font-family: "Lucida Console", Monaco, monospace;
+}
